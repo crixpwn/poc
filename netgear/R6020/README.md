@@ -2,7 +2,7 @@
 
 First i may also have awkward English writing. please understand.
 This vulnerability has been assigned CVE-2020-17409 and ZDI-CAN-10754. 
-Similar bugs existed 3 years ago (vulnerabilities reported from geekpwn and report 2018 from shanghai geekpwn), and the patching method on netgear did not address the root cause of the vulnerability.
+Similar bugs existed 3 years ago (vulnerabilities reported from 2017 geekpwn and report 2018 from shanghai geekpwn), and the patching method on netgear did not address the root cause of the vulnerability.
 
 And it was affected on the following devices:
 R6260(1.1.0.62 or previous version), 
