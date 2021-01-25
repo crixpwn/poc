@@ -60,14 +60,22 @@ for (i = 0; paths[i]; i++)
 
 As you can see, requesting no_check_passwd_paths (e.g update_setting.htm) does not require authentication.  
 
+![auth_check](auth_check.png)
+
 There is one problem. by default, netgear uses cgi to handle user requests, so we have to devise a way to use it together. Here is the fun part. If you send a request as follows, mini_http will recognize the request as if it were sent by cgi.
 
+![auth_check_test](auth_check_test.png)
+
 I used this to test again with update_setting.htm in the next_file argument. 
+
+![auth_bypass](auth_bypass.png)
 
 as you can see that we can bypass auth now! 
 
 Many routers may show their settings after setup. (e.g password) In this case, this may not be a problem, but in netgear makes it easy to control the router by linking it with the vulnerability first described.  
 
 For R6080, you can get the password from BRS_swisscom_success.html. Let's use it with the first described vulnerability to get a password. and on other devices, you can get the password from BRS_success.html.
+
+![got_password](got_password.png)
 
 pwned1 is my router password. 
