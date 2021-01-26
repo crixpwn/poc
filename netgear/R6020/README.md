@@ -72,7 +72,7 @@ I used this to test again with update_setting.htm in the next_file argument.
 
 as you can see that we can bypass auth now! 
 
-# Password disclouse
+## Password disclouse
 
 Many routers may show their settings after setup. (e.g password) In this case, this may not be a problem, but in netgear makes it easy to control the router by linking it with the vulnerability first described.  
 
