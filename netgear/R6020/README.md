@@ -72,6 +72,8 @@ I used this to test again with update_setting.htm in the next_file argument.
 
 as you can see that we can bypass auth now! 
 
+# Password disclouse
+
 Many routers may show their settings after setup. (e.g password) In this case, this may not be a problem, but in netgear makes it easy to control the router by linking it with the vulnerability first described.  
 
 For R6080, you can get the password from BRS_swisscom_success.html. Let's use it with the first described vulnerability to get a password. and on other devices, you can get the password from BRS_success.html.
