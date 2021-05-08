@@ -1,1 +1,1 @@
-This is a patched bug before reporting. i will write about this vulnerbliity soon
+# NETGEAR Pre-Auth memory corruption in upnpd
