@@ -1,1 +1,1 @@
-# NETGEAR Pre-Auth memory corruption in upnpd
+# NETGEAR Nighthawk Pre-Auth memory corruption in upnpd
